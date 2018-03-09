@@ -1,0 +1,14 @@
+{
+  "name": "npm-demonativecommunication-package",
+  "version": "0.0.2",
+  "description": "A demo package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Demo"
+  ],
+  "author": "myTouch mytouch@gmail.com",
+  "license": "ISC"
+}
