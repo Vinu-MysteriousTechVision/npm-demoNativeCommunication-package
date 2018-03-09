@@ -8,7 +8,7 @@ import {
   NativeModules
 } from 'react-native';
 
-var RNDeviceInfo = NativeModules.RNDemo;
+var RNDemo = NativeModules.RNDemo;
 
 class DummyPage extends Component {
   constructor(props) {
@@ -25,5 +25,5 @@ class DummyPage extends Component {
 
 module.exports = {
   DummyPage,
-  RNDeviceInfo
+  RNDemo
 }
