@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import {
-  StyleSheet,
+  Text,
   View,
-  ScrollView,
   Navigator,
-  Text
+  StyleSheet,
+  ScrollView,
+  NativeModules
 } from 'react-native';
+
+var RNDeviceInfo = NativeModules.RNDemo;
 
 class DummyPage extends Component {
   constructor(props) {
@@ -20,4 +23,7 @@ class DummyPage extends Component {
 
 }
 
-module.exports = DummyPage;
+module.exports = {
+  DummyPage,
+  RNDeviceInfo
+}
