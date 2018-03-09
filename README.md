@@ -7,7 +7,7 @@ getModuleList() fetches list of native modules.
 
 import CustomModule from 'npm-demonativecommunication-package';
 
-    CustomModule.RNDeviceInfo.getModuleList((error, data) => {
+    CustomModule.RNDemo.getModuleList((error, data) => {
         if (error) {
           alert("Result: " + error);
         } else {
